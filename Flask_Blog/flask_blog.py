@@ -2,6 +2,7 @@ from flask import Flask,render_template
 
 app = Flask(__name__)
 
+app.config['SECRET_KEY'] = 'f15f3e37e75d4ef9bce64b7c089c70b378a8508f349f60bbc5bd7827c4dc2116'
 posts = [
     {
         'author': 'Corey Schafer',
