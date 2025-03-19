@@ -10,6 +10,7 @@ A brief description of the project.
 - [License](#license)
 - [Project Logs](#project-logs)
 - [High-Level Project Understanding](#high-level-project-understanding)
+- [Recent Updates](#recent-updates)
 
 ## Installation
 
@@ -41,6 +42,12 @@ This project is a Flask-based web application designed to serve as a blog platfo
 3. **Documentation**: Created and updated the `readme.md` file to provide a detailed overview and logs of the project.
 
 This project is currently in the early stages of development, with a focus on setting up the foundational components and documenting progress.
+
+## Recent Updates
+
+- **.windsurfrules**: Created an empty file to store project-specific rules or configurations.
+- **main.css**: Created an empty CSS file in the `static` directory for custom styling.
+- **layout.html**: Updated the template to include a navigation bar, sidebar, and link to the `main.css` file.
 
 ## Project Logs
 
