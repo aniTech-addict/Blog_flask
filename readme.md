@@ -57,6 +57,8 @@ This project is currently in the early stages of development, with a focus on se
 
 - **flask_blog.py**: Added a `SECRET_KEY` configuration to enable secure session management and form validation. The `SECRET_KEY` is crucial for protecting user sessions and ensuring that data submitted through forms is secure. It helps prevent attacks such as cross-site request forgery (CSRF).
 
+- **flask_blog.py**: Imported the `RegistrationForm` from `forms.py` and added a new route for user registration. This route will handle both GET and POST requests, allowing users to register by submitting their information through a form.
+
 ## Project Logs
 
 ### Summary of Current Directory

@@ -1,5 +1,5 @@
 from flask import Flask,render_template
-
+from form import*
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'f15f3e37e75d4ef9bce64b7c089c70b378a8508f349f60bbc5bd7827c4dc2116'
@@ -26,6 +26,11 @@ def home():
 @app.route("/about")
 def hello():
     return render_template("About.html")
+
+@app.route("/register",methods=['GET','POST'])
+def register():
+    form = RegistrationForm()
+    return render_template("register.html",form=form)
 
 if __name__=="__main__":
     app.run(debug=True)
